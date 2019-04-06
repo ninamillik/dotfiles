@@ -15,12 +15,12 @@ exec_always --no-startup-id xrdb -merge ~/.Xresources
 bindsym $mod+Shift+q kill
 
 # set background
-exec_always --no-startup-id feh --bg-scale ~/Pictures/Wallpaper/low_poly_bird.png
+exec_always --no-startup-id feh --bg-scale ~/.bg.png
 # start compton for transparency
 exec_always --no-startup-id compton --inactive-opacity=0.85 -m=1.0
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec dmenu_run
+bindsym $mod+d exec dmenu_run -nb '#282828' -nf '#ebdbb2' -sb '#32302f' -sf '#d79921'
 
 # change focus
 bindsym $mod+h focus left
@@ -123,10 +123,10 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # window colors
-# class			        border	backgr	text	indicr	child_border
+# class			    border	backgr	text	indicr	child_border
 client.focused		    #ebdbb2	#83a598	#F5F6F7	#5294E2	#ebdbb2
 client.unfocused	    #20201D	#20201D	#7D7A68	#20201D	#20201D
-client.focused_inactive	#20201D	#20201D	#7D7A68 #20201D	#20201D
+client.focused_inactive	    #20201D	#20201D	#7D7A68 #20201D	#20201D
 client.urgent		    #cc241d	#cc241d	#F5F6F7	#cc241d	#cc241d
 
 # font
