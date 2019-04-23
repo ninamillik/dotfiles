@@ -15,10 +15,9 @@ exec_always --no-startup-id xrdb -merge ~/.Xresources
 bindsym $mod+Shift+q kill
 
 # set background
- exec_always --no-startup-id feh --bg-scale ~/.bg.png
-# start compton for transparency/dimmness
-# exec_always --no-startup-id compton --inactive-opacity=0.85 -m=1.0
-exec_always --no-startup-id compton --inactive-dim=0.33 --menu-opacity=1.0
+exec_always --no-startup-id feh --bg-scale ~/.bg.png
+# start compton for dimmness and shadows
+exec_always --no-startup-id compton --inactive-dim=0.33 --menu-opacity=1.0 --shadow --shadow-opacity=0.75
 
 # start dmenu (a program launcher)
 bindsym $mod+d exec dmenu_run -nb '#282828' -nf '#ebdbb2' -sb '#32302f' -sf '#d79921'
@@ -146,16 +145,17 @@ gaps inner 10
 bar {
     status_command i3status
 	font pango:FantasqueSansMono 10
-    separator_symbol "|"
+    separator_symbol "  "
     tray_output none
 	colors {
-		background	#1d2021
+		background	#262626
 		separator	#d79921
         statusline  #ebdbb2
 
-		focused_workspace	#3a3a3a #3a3a3a #d79921
-		active_workspace	#3a4a4a #3a3a3a #ebdbb2
-		inactive_workspace	#1d2021 #1d2021 #ebdbb2
+# class                     border  backgr  text
+		focused_workspace	#262626 #262626 #d79921
+		active_workspace	#262626 #262626 #ebdbb2
+		inactive_workspace	#262626 #262626 #ebdbb2
 		urgent_workspace	#cc241d	#cc241d #ebdbb2
 	}
 }
