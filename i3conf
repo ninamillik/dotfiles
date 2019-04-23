@@ -17,7 +17,7 @@ bindsym $mod+Shift+q kill
 # set background
 exec_always --no-startup-id feh --bg-scale ~/.bg.png
 # start compton for dimmness and shadows
-exec_always --no-startup-id compton --inactive-dim=0.33 --menu-opacity=1.0 --shadow --shadow-opacity=0.75
+exec_always --no-startup-id compton --inactive-dim=0.33 --menu-opacity=1.0 --shadow --no-dock-shadow --shadow-opacity=0.75
 
 # start dmenu (a program launcher)
 bindsym $mod+d exec dmenu_run -nb '#282828' -nf '#ebdbb2' -sb '#32302f' -sf '#d79921'
