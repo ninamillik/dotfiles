@@ -29,10 +29,12 @@ set showmatch       " highlight matching {[()]}
 nnoremap gV `[v`]
 colorscheme twilight256 " set this colorscheme first to force gruvbox dark (??)
 colorscheme gruvbox
-" powerline symbols for Airline
-"let g:airline_powerline_fonts = 1
 " Hide tildes
 highlight EndOfBuffer ctermfg=bg
+" lightline
+let g:lightline = {
+      \ 'colorscheme': 'gruvbox',
+      \ }
 " }}}
 
 " Searching {{{
