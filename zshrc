@@ -22,4 +22,8 @@ alias ssh_yygpu10='ssh wamillik@yygpu10.mse.ncsu.edu'
 alias mount_fmria='sshfs wamillik@yygpu2.mse.ncsu.edu:/home/wamillik/fmria ~/Projects/fmria'
 alias mount_cmmi='sshfs wamillik@yygpu2.mse.ncsu.edu:/home/wamillik/cmmi ~/Projects/cmmi'
 alias mount_rti='sshfs wamillik@yypu2.mse.ncsu.edu:/home/common/james_nina_share/RTI_solvents ~/Projects/rti_solvents'
+
+# TEMPORARY ALIASES
+alias mount_dft='sshfs wamillik@login01.hpc.ncsu.edu:/share/mse791s19/ninamillik ~/Documents/Work/Coursework/2019_spring/MSE791_DFT/hpc_mount'
+
 DEFAULT_USER=ninamillik
