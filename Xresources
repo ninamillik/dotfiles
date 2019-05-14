@@ -1,98 +1,38 @@
 ! Xresources
 
-*.scrollBar:       false
-*.internalBorder:  5
-*.font:            Inconsolata:pixelsize=12:antialias=true:autohint=true
-*.bold_font:       1
-*.termname:        st-256color
-*.shell:           /usr/bin/zsh
+URxvt*scrollBar: false
+URxvt*internalBorder: 10
+URxvt*font: xft:FantasqueSansMono:size=10
+URxvt*bold_font: 1
+URxvt*termname: st-256color
+URxvt*shell: /usr/bin/zsh
 
 ! Gruvbox color scheme
 ! hard contrast: *background: #1d2021
-*.background: #282828
+URxvt*background: #282828
 ! soft contrast: *background: #32302f
-*.foreground: #ebdbb2
+URxvt*foreground: #ebdbb2
 ! Black + DarkGrey
-*.color0:  #282828
-*.color8:  #928374
+URxvt*color0:  #282828
+URxvt*color8:  #928374
 ! DarkRed + Red
-*.color1:  #cc241d
-*.color9:  #fb4934
+URxvt*color1:  #cc241d
+URxvt*color9:  #fb4934
 ! DarkGreen + Green
-*.color2:  #98971a
-*.color10: #b8bb26
+URxvt*color2:  #98971a
+URxvt*color10: #b8bb26
 ! DarkYellow + Yellow
-*.color3:  #d79921
-*.color11: #fabd2f
+URxvt*color3:  #d79921
+URxvt*color11: #fabd2f
 ! DarkBlue + Blue
-*.color4:  #458588
-*.color12: #83a598
+URxvt*color4:  #458588
+URxvt*color12: #83a598
 ! DarkMagenta + Magenta
-*.color5:  #b16286
-*.color13: #d3869b
+URxvt*color5:  #b16286
+URxvt*color13: #d3869b
 ! DarkCyan + Cyan
-*.color6:  #689d6a
-*.color14: #8ec07c
+URxvt*color6:  #689d6a
+URxvt*color14: #8ec07c
 ! LightGrey + White
-*.color7:  #a89984
-*.color15: #ebdbb2
-
-! Twilight color scheme
-!*.foreground:  #a7a7a7
-!*.background:  #1e1e1e
-!*.cursorColor: #a7a7a7
-!
-!! black
-!*.color0:  #1e1e1e
-!*.color8:  #5f5a60
-!! red
-!*.color1:  #cf6a4c
-!*.color9:  #cf6a4c
-!! green
-!*.color2:  #8f9d6a
-!*.color10: #8f9d6a
-!! yellow
-!*.color3:  #f9ee98
-!*.color11: #f9ee98
-!! blue
-!*.color4:  #7587a6
-!*.color12: #7587a6
-!! purple
-!*.color5:  #9b859d
-!*.color13: #9b859d
-!! cyan
-!*.color6:  #afc4db
-!*.color14: #afc4db
-!! white
-!*.color7:  #a7a7a7
-!*.color15: #ffffff
-
-!! Opine color scheme
-!*.foreground:  #f5f6f7
-!*.background:  #414a59
-!*.cursorColor: #5294e2
-!
-!! black
-!*.color0:  #20201d
-!*.color8:  #7d7a68
-!! red
-!*.color1:  #cc575d
-!*.color9:  #cc575d
-!! green
-!*.color2:  #60ac39
-!*.color10: #60ac39
-!! yellow
-!*.color3:  #cfb017
-!*.color11: #cfb017
-!! blue
-!*.color4:  #5294e2
-!*.color12: #5294e2
-!! purple
-!*.color5:  #d599e6
-!*.color13: #d599e6
-!! cyan
-!*.color6:  #1fad83
-!*.color14: #1fad83
-!! white
-!*.color7:  #f5f6f7
-!*.color15: #f5f6f7
+URxvt*color7:  #a89984
+URxvt*color15: #ebdbb2
