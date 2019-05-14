@@ -9,6 +9,7 @@ source $ZSH/oh-my-zsh.sh
 
 # aliases
 alias r='ranger --choosedir=$HOME/.rangerdir; LASTDIR='cat $HOME/.rangerdir'; cd "$LASTDIR"'
+alias vpn='./src/anyconnect-linux64-4.6.03049/vpn/vpn'
 
 # yygpu ssh
 alias ssh_yygpu2='ssh wamillik@yygpu2.mse.ncsu.edu' 
