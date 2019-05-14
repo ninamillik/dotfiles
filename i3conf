@@ -6,7 +6,7 @@ set $mod Mod1
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec st
+bindsym $mod+Return exec urxvt -fn "xft:FantasqueSansMono:size=10"
 
 # merge Xresources
 exec_always --no-startup-id xrdb -merge ~/.Xresources
