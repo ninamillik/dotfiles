@@ -9,11 +9,11 @@ general {
     interval = 5
 }
 
-order += "wireless wlp2s0"
+order += "wireless wlp4s0"
 order += "battery 0"
 order += "tztime local"
 
-wireless wlp2s0 {
+wireless wlp4s0 {
     format_up = "W: %essid"
     format_down = "W: down"
 }
